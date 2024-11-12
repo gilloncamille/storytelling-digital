@@ -1,24 +1,75 @@
-.l-title {
-  position: absolute;
+.l-title img {
+  top: 24px;
   right: 10px;
-  top: 76px;
-  max-width: 1280px;
-  height: auto;
-
-  height: 492px;
-}
-
-.l-under-title {
   position: absolute;
-  top: 534px;
-  left: 384px;
-  width: 542px;
-  height: 38px;
+  width: 100%;
+  min-width: 1280px;
+  height: auto;
 }
 
-.l-blackground-img,
-img {
+.l-under-title img {
+  position: absolute;
+  width: 30vw; /* Une largeur en fonction de la fenêtre pour qu’elle reste responsive */
+  height: 500px; /* Maintient le ratio de l'image */
+  top: 55vh; /* Adapte la position verticale en fonction de la hauteur de la fenêtre */
+  left: 30vw;
+}
+
+.l-blackground-img img {
   width: 100%;
-  max-width: 1280px;
+  min-width: 1280px;
   height: auto;
+}
+
+.l-start-of-history {
+  background-image: url(../img/wallpaper-main.png);
+  min-width: 1280px;
+  margin: 0 auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.l-start-image-1 {
+  position: absolute;
+  top: 107px;
+  left: 93px;
+  min-width: 824px;
+  height: 229px;
+}
+
+.l-purchase-bd {
+  background-image: url(../img/wallpaper-vente.png);
+  min-width: 1280px;
+  margin: 0 auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 190px 155px 0px 0px;
+}
+
+.l-purchase-bd h2 {
+  color: white;
+  font-size: 64px;
+  padding-left: 617px;
+}
+
+.l-purchase-bd h3 {
+  color: white;
+  padding-left: 617px;
+  padding-bottom: 57px;
+}
+
+.l-purchase-bd h4 {
+  color: white;
+  padding-left: 617px;
+}
+
+.l-purchase-bd p {
+  padding-top: 42px;
+  color: white;
+  padding-left: 617px;
+  padding-bottom: 100px;
 }
