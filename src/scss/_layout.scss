@@ -178,7 +178,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 57px 30px 326px 36px;
+  padding: 57px 30px 358px 36px;
 }
 
 .l-sketch h2 {
@@ -190,9 +190,6 @@
 .l-sketch p {
   color: #949494;
   font-size: 28px;
-  padding-top: 231px;
-  padding-left: 975px;
-  padding-right: 70px;
 }
 
 #l-BD-special {
@@ -252,4 +249,13 @@
   color: #6b6b6b;
   text-align: center;
   font-size: 12px;
+}
+
+.l-BD-serie {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  width: 100%;
+  gap: 10px;
+  padding: 20px;
 }
