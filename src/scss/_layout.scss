@@ -1,4 +1,5 @@
 .l-title img {
+  z-index: 1;
   top: 24px;
   right: 10px;
   position: absolute;
@@ -8,16 +9,32 @@
 }
 
 .l-under-title img {
-  position: absolute;
+  z-index: 1;
   width: 50%;
   left: 25%;
   top: 574px;
+  position: absolute;
 }
 
 .l-blackground-img img {
   width: 100%;
   min-width: 1280px;
   height: auto;
+}
+
+.l-parallax-container {
+  height: calc(80vh - 40px);
+  padding: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.l-parallax-background-img {
+  min-width: 1280px;
+  position: absolute;
+  left: 0px;
+  display: flex;
+  width: 100%;
 }
 
 .l-start-of-history {
@@ -28,236 +45,23 @@
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
+  padding: 1000px;
 }
 
-.l-start-image-1 {
+.l-start-image-1 img {
   position: absolute;
   top: 107px;
   left: 93px;
-  min-width: 824px;
-  height: 229px;
+  width: 1000px;
+  height: 329px;
 }
 
-.l-purchase-bd {
-  background-image: url(../img/wallpaper-vente.png);
-  min-width: 1280px;
-  margin: 0 auto;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  position: relative;
-  padding: 190px 155px 0px 0px;
-}
-
-.l-BD-big-size img {
-  left: -60px;
-  top: 30px;
-  width: 786px;
-  height: 880px;
+.l-start-image-2 img {
   position: absolute;
-}
-
-.l-purchase-bd h2 {
-  color: white;
-  font-size: 64px;
-  padding-left: 617px;
-}
-
-.l-purchase-bd h3 {
-  color: white;
-  font-size: 36px;
-  padding-left: 617px;
-  padding-bottom: 57px;
-}
-
-.l-purchase-bd h4 {
-  color: white;
-  font-size: 32px;
-  padding-left: 617px;
-}
-
-.l-purchase-bd p {
-  padding-top: 42px;
-  color: white;
-  font-size: 24px;
-  padding-left: 617px;
-  padding-bottom: 100px;
-}
-
-#unique-container {
-  display: flex;
-  flex-direction: row;
-  padding-left: 617px;
-  padding-bottom: 248px;
-  gap: 50px;
-}
-
-.l-btn-buy {
-  padding: 21px 39px 21px 39px;
-  border-radius: 10px;
-  border: solid white 3px;
-  color: white;
-}
-.l-btn-buy a {
-  text-decoration: none;
-}
-
-.l-btn-point-of-sale {
-  padding: 21px 39px 21px 39px;
-  border-radius: 10px;
-  border: solid white 3px;
-  color: white;
-}
-
-.l-btn-point-of-sale a {
-  text-decoration: none;
-}
-
-.l-purchase-bd-special {
-  background-image: url(../img/wallpaper-vente-hors-serie.png);
-  min-width: 1280px;
-  margin: 0 auto;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  position: relative;
-  padding: 120px 155px 0px 0px;
-  z-index: 1;
-}
-
-.l-BD-special-big-size img {
-  width: 454px;
-  height: 713px;
-  position: absolute;
-  top: 120px;
-  left: 134px;
-}
-
-.l-purchase-bd-special h2 {
-  color: white;
-  font-size: 64px;
-  padding-left: 617px;
-}
-
-.l-purchase-bd-special h3 {
-  color: white;
-  font-size: 36px;
-  padding-left: 617px;
-  padding-bottom: 57px;
-}
-
-.l-purchase-bd-special h4 {
-  color: white;
-  font-size: 32px;
-  padding-left: 617px;
-}
-
-.l-purchase-bd-special p {
-  padding-top: 42px;
-  color: white;
-  font-size: 24px;
-  padding-left: 617px;
-  padding-bottom: 100px;
-}
-#l-about-contact {
-  display: flex;
-  flex-direction: row;
-  gap: 1029px;
-  padding-bottom: 35px;
-}
-
-#l-link-of-footer {
-  display: flex;
-  flex-direction: column;
-}
-
-.l-sketch {
-  background-image: url(../img/wallpaper-sketch.png);
-  min-width: 1280px;
-  margin: 0 auto;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 57px 30px 358px 36px;
-}
-
-.l-sketch h2 {
-  color: #949494;
-  font-size: 64px;
-  text-align: center;
-}
-
-.l-sketch p {
-  color: #949494;
-  font-size: 28px;
-}
-
-#l-BD-special {
-  padding-left: 380px;
-  display: flex;
-  flex-direction: row;
-  gap: 113px;
-}
-
-.l-sketch-bd img {
-  width: 287px;
-  height: 381px;
-}
-
-.l-aquarelle-bd img {
-  width: 287px;
-  height: 381px;
-}
-
-.l-fade-to-black img {
-  position: absolute;
-  width: 100%;
-  min-width: 1280px;
-  height: auto;
-  top: 963px;
-  left: 0px;
-  z-index: -1;
-}
-
-.l-about {
-  color: white;
-  font-size: 16px;
-}
-
-.l-contact-us {
-  padding-bottom: 35px;
-  color: white;
-  font-size: 16px;
-}
-
-#l-link-of-footer a {
-  text-decoration: none;
-  font-size: 12px;
-}
-
-#l-applications {
-  display: flex;
-  flex-direction: row;
-  gap: 37px;
-  position: absolute;
-  top: 121px;
-  left: 1114px;
-}
-
-.l-credit {
-  padding-top: 326px;
-  color: #6b6b6b;
-  text-align: center;
-  font-size: 12px;
-}
-
-.l-BD-serie {
-  display: flex;
-  overflow-x: auto;
-  scroll-behavior: smooth;
-  width: 100%;
-  gap: 10px;
-  padding: 20px;
+  top: 907px;
+  left: 93px;
+  width: 1000px;
+  height: 829px;
 }
 
 .l-slider-container {
@@ -397,4 +201,224 @@
   position: absolute;
   top: 250px;
   left: 50px;
+}
+
+.l-purchase-bd {
+  background-image: url(../img/wallpaper-vente.png);
+  min-width: 1280px;
+  margin: 0 auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 190px 155px 0px 0px;
+}
+.l-purchase-bd h2 {
+  color: white;
+  font-size: 64px;
+  padding-left: 617px;
+}
+
+.l-purchase-bd h3 {
+  color: white;
+  font-size: 36px;
+  padding-left: 617px;
+  padding-bottom: 57px;
+}
+
+.l-purchase-bd h4 {
+  color: white;
+  font-size: 32px;
+  padding-left: 617px;
+}
+
+.l-purchase-bd p {
+  padding-top: 42px;
+  color: white;
+  font-size: 24px;
+  padding-left: 617px;
+  padding-bottom: 100px;
+}
+
+.l-BD-big-size img {
+  left: -60px;
+  top: 30px;
+  width: 786px;
+  height: 880px;
+  position: absolute;
+}
+.l-btn-buy {
+  padding: 21px 39px 21px 39px;
+  border-radius: 10px;
+  border: solid white 3px;
+  color: white;
+}
+.l-btn-buy a {
+  text-decoration: none;
+}
+
+.l-btn-point-of-sale {
+  padding: 21px 39px 21px 39px;
+  border-radius: 10px;
+  border: solid white 3px;
+  color: white;
+}
+
+.l-btn-point-of-sale a {
+  text-decoration: none;
+}
+
+.l-BD-serie {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  width: 100%;
+  gap: 10px;
+  padding: 20px;
+}
+
+.l-sketch {
+  background-image: url(../img/wallpaper-sketch.png);
+  min-width: 1280px;
+  margin: 0 auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 57px 30px 358px 36px;
+}
+
+.l-sketch h2 {
+  color: #949494;
+  font-size: 64px;
+  text-align: center;
+}
+
+.l-sketch p {
+  color: #949494;
+  font-size: 28px;
+}
+
+#unique-container {
+  display: flex;
+  flex-direction: row;
+  padding-left: 617px;
+  padding-bottom: 248px;
+  gap: 50px;
+}
+
+.l-purchase-bd-special {
+  background-image: url(../img/wallpaper-vente-hors-serie.png);
+  min-width: 1280px;
+  margin: 0 auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 120px 155px 0px 0px;
+  z-index: 1;
+}
+
+.l-BD-special-big-size img {
+  width: 454px;
+  height: 713px;
+  position: absolute;
+  top: 120px;
+  left: 134px;
+}
+
+.l-purchase-bd-special h2 {
+  color: white;
+  font-size: 64px;
+  padding-left: 617px;
+}
+
+.l-purchase-bd-special h3 {
+  color: white;
+  font-size: 36px;
+  padding-left: 617px;
+  padding-bottom: 57px;
+}
+
+.l-purchase-bd-special h4 {
+  color: white;
+  font-size: 32px;
+  padding-left: 617px;
+}
+
+.l-purchase-bd-special p {
+  padding-top: 42px;
+  color: white;
+  font-size: 24px;
+  padding-left: 617px;
+  padding-bottom: 100px;
+}
+#l-about-contact {
+  display: flex;
+  flex-direction: row;
+  gap: 1029px;
+  padding-bottom: 35px;
+}
+
+#l-link-of-footer {
+  display: flex;
+  flex-direction: column;
+}
+
+#l-BD-special {
+  padding-left: 380px;
+  display: flex;
+  flex-direction: row;
+  gap: 113px;
+}
+
+.l-sketch-bd img {
+  width: 287px;
+  height: 381px;
+}
+
+.l-aquarelle-bd img {
+  width: 287px;
+  height: 381px;
+}
+
+.l-fade-to-black img {
+  position: absolute;
+  width: 100%;
+  min-width: 1280px;
+  height: auto;
+  top: 963px;
+  left: 0px;
+  z-index: -1;
+}
+
+.l-about {
+  color: white;
+  font-size: 16px;
+}
+
+.l-contact-us {
+  padding-bottom: 35px;
+  color: white;
+  font-size: 16px;
+}
+
+#l-link-of-footer a {
+  text-decoration: none;
+  font-size: 12px;
+}
+
+#l-applications {
+  display: flex;
+  flex-direction: row;
+  gap: 37px;
+  position: absolute;
+  top: 121px;
+  left: 1114px;
+}
+
+.l-credit {
+  padding-top: 326px;
+  color: #6b6b6b;
+  text-align: center;
+  font-size: 12px;
 }
