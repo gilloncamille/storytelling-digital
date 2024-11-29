@@ -259,3 +259,142 @@
   gap: 10px;
   padding: 20px;
 }
+
+.l-slider-container {
+  display: inline-flex;
+  height: 100%;
+  gap: 10px;
+
+  background: #080808;
+  position: relative;
+}
+
+.l-slider-mask {
+  overflow: hidden;
+  height: 100vh;
+}
+
+.l-spacer {
+  height: 100vh;
+  background-color: lightpink;
+}
+
+.l-slider-item {
+  width: calc(100vw - 30px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  position: relative;
+}
+
+.l-blacksad-profil img {
+  z-index: 1;
+  width: 500px;
+  position: absolute;
+  top: 100px;
+  left: 261px;
+}
+.l-bubble-case img {
+  width: 600px;
+  position: absolute;
+  top: 40px;
+  left: 1061px;
+}
+.l-blacksad-case-1 img {
+  width: 400px;
+  position: absolute;
+  top: 260px;
+  left: 0px;
+}
+.l-blacksad-case-2 img {
+  width: 500px;
+  position: absolute;
+  top: 240px;
+  left: 461px;
+}
+
+.l-blacksad-case-3 img {
+  width: 900px;
+  position: absolute;
+  top: 0px;
+  left: 150px;
+}
+
+.l-blacksad-case-4 img {
+  width: 750px;
+  position: absolute;
+  top: 600px;
+  left: 220px;
+}
+
+.l-blacksad-case-5 img {
+  width: 900px;
+  position: absolute;
+  top: 0px;
+  left: 320px;
+}
+
+.l-blacksad-case-6 img {
+  width: 1300px;
+  position: absolute;
+  top: 520px;
+  left: 620px;
+}
+
+.l-blacksad-case-7 img {
+  width: 700px;
+  position: absolute;
+  top: 50px;
+  left: 920px;
+}
+
+.l-blacksad-case-8 img {
+  z-index: 1;
+  width: 700px;
+  position: absolute;
+  top: 450px;
+  left: 1320px;
+}
+
+.l-blacksad-case-9 img {
+  width: 900px;
+  position: absolute;
+  top: 250px;
+  left: 900px;
+}
+
+.l-blacksad-case-10 img {
+  width: 700px;
+  position: absolute;
+  top: 250px;
+  left: 700px;
+}
+
+.l-blacksad-case-11 img {
+  width: 900px;
+  position: absolute;
+  top: 500px;
+  left: 700px;
+}
+
+.l-blacksad-case-12 img {
+  width: 1500px;
+  position: absolute;
+  top: 200px;
+  left: 450px;
+}
+
+.l-blacksad-case-13 img {
+  width: 1330px;
+  position: absolute;
+  top: 200px;
+  left: 250px;
+}
+
+.l-blacksad-case-14 img {
+  width: 930px;
+  position: absolute;
+  top: 250px;
+  left: 50px;
+}
